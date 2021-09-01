@@ -16,13 +16,13 @@ function Navbar() {
                     </li>
                     <li className="li-bar">
                         <Link to='/officeraddvisitor'
-                        className="link-bar">
+                            className="link-bar">
                             Add Visitor
                         </Link>
                     </li>
                     <li className="li-bar">
                         <Link to='/officerviewvisitor'
-                        className="link-bar">
+                            className="link-bar">
                             Visitor List
                         </Link>
                     </li>

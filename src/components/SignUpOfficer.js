@@ -2,7 +2,8 @@ import React from 'react';
 import { Button } from '../components/Button';
 import { Modal, Form, Row, Col } from 'react-bootstrap';
 
-function SignUpOfficer({ modal_Show, modal_Hide }) {
+
+function SignUpOfficer({ modal_Show, modal_Hide }) {            // using props
     return (
         <Modal
             show={modal_Show}
@@ -56,7 +57,7 @@ function SignUpOfficer({ modal_Show, modal_Hide }) {
 
                         <Form.Group as={Col} controlId="formGridPassword">
                             <Form.Label>NIC No</Form.Label>
-                            <Form.Control  placeholder="Enter your NIC number" />
+                            <Form.Control placeholder="Enter your NIC number" />
                         </Form.Group>
                     </Row>
 
