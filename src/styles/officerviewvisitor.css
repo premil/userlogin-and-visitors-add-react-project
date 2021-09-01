@@ -1,0 +1,12 @@
+.OfficerViewVisitor{
+    margin: 50px;
+}
+.visitorList{
+    display: flex;
+    align-items: center;
+}
+
+.userListDelete{
+    color: red;
+    cursor: pointer;
+}

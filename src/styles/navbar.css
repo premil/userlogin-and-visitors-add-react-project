@@ -1,0 +1,27 @@
+.navbar{
+    height: 60px;
+    margin: auto;
+    padding: 0px 20px;
+    background-color: rgb(128, 90, 9);
+}
+.navbar-left{
+    
+}
+.ul-bar{
+    display: flex;
+    list-style-type: none; 
+    padding-top: 10px;
+}
+.link-bar{
+    color: rgb(248, 242, 242) !important;
+    list-style: none !important;
+    text-decoration: none !important;
+    margin-right: 25px;
+    font-size: large;
+}
+.link-bar:hover{
+    color: #000 !important;
+}
+.navbar-right{
+
+}

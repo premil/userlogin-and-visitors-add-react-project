@@ -1,0 +1,91 @@
+:root{
+    --primary: #fff !important;
+    --secondary: #242424 !important;
+}
+
+.btns{
+    padding: 8px 20px;
+    border-radius: 2px;
+    outline: none;
+    border: none;
+    cursor: pointer;
+}
+
+
+/* ========================================= */
+/* ========== Button Style => BOX ========== */
+
+.btn-white-box{
+    background-color: var(--primary);
+    color: var(--secondary);
+    border: 1px solid var(--primary);
+}
+
+.btn-black-box{
+    background-color: var(--secondary);
+    color: var(--primary);
+    border: 1px solid var(--secondary);
+} 
+
+.btn-transparent-box{
+    background-color: transparent;
+    color: #fff;
+    padding: 8px 20px;
+    border: 1px solid var(--primary);
+    transition: all 0.3s ease-out;
+}
+
+
+/* =========================================== */
+/* ========== Button Style => CURVE ========== */
+
+.btn-white-curve{
+    background-color: var(--primary);
+    color: var(--secondary);
+    border: 1px solid var(--primary);
+    border-radius: 20px;
+}
+
+.btn-black-curve{
+    background-color: var(--secondary);
+    color: var(--primary);
+    border: 1px solid var(--secondary);
+    border-radius: 20px;
+}
+
+.btn-transparent-curve{
+    background-color: transparent;
+    color: #fff;
+    padding: 8px 20px;
+    border: 1px solid var(--primary);
+    border-radius: 20px;
+    transition: all 0.3s ease-out;
+}
+
+
+/* ================================== */
+/* ========== Button Sizes ========== */
+
+.btn-large{
+    padding: 12px 26px;
+    font-size: 20px;
+}
+
+.btn-medium{
+    padding: 8px 20px;
+    font-size: 16px;
+}
+
+.btn-small{
+    padding: 5px 16px;
+    font-size: 13px;
+}
+
+.btn-large:hover,
+.btn-medium:hover, 
+.btn-small:hover{
+    background: var(--primary);
+    color: var(--secondary);
+    /* transition: 250ms; */
+    transition: all 0.3s ease-out;
+}

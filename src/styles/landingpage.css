@@ -1,0 +1,27 @@
+.landingpage{
+    margin: auto;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    /* padding: 200px 0px; */
+}
+
+.landing-wrapper{
+    display: flex;
+    justify-content: center;
+}
+
+.officer{
+    padding: 20px;
+}
+
+.visitor{
+    padding: 20px;
+}
+
+@media screen and (max-width: 620px) {
+    .landing-wrapper{
+        display: block;
+    }
+}
