@@ -15,7 +15,7 @@ function SignUpOfficer({ modal_Show, modal_Hide }) {
                 closeButton
                 style={{ backgroundColor: "darkorange" }}>
                 <Modal.Title id="contained-modal-title-vcenter">
-                    Welcome! Let's Sign UP
+                    Welcome! Let's Submit your Details
                 </Modal.Title>
             </Modal.Header>
 
