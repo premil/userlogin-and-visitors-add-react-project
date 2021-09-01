@@ -83,7 +83,7 @@ function SignUpOfficer({ modal_Show, modal_Hide }) {            // using props
                     type='submit'
                     onClick={modal_Hide}
                 >
-                    Sign IN
+                    Sign UP
                 </Button>
             </Modal.Footer>
         </Modal>

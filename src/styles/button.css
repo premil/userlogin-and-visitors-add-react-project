@@ -86,6 +86,5 @@
 .btn-small:hover{
     background: var(--primary);
     color: var(--secondary);
-    /* transition: 250ms; */
     transition: all 0.3s ease-out;
 }
