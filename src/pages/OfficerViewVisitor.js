@@ -6,23 +6,14 @@ import Navbar from '../components/Navbar';
 
 
 function OfficerViewVisitor() {
-    const [data, setData] = useState(userRows);
+    const [data, setData] = useState( userRows );   // not import test data
 
     const columns = [
-        { field: 'id', headerName: 'ID', width: 120 },
-        {
-            field: 'visitorName', headerName: 'Visitor Name', width: 170,
-            renderCell: (params) => {
-                return (
-                    <div className="visitorList">
-                        {params.row.visitorName}
-                    </div>
-                )
-            }
-        },
+        { field: 'id', headerName: 'ID', width: 100 },
+        {field: 'visitorName', headerName: 'Visitor Name', width: 220,},
         { field: 'contactNo', headerName: 'Contact No', width: 150 },
         { field: 'NICNo', headerName: 'NIC No', width: 150 },
-        { field: 'address', headerName: 'Address', width: 150 },
+        { field: 'address', headerName: 'Address', width: 200 },
         { field: 'city', headerName: 'City', width: 120 },
     ];
 
@@ -32,10 +23,10 @@ function OfficerViewVisitor() {
             <div className="OfficerViewVisitor">
                 <DataGrid
                     rows={data}
-                    disableSelectionOnClick
+                    // disableSelectionOnClick
                     columns={columns}
                     pageSize={10}
-                    checkboxSelection
+                    // checkboxSelection
                 />
             </div>
         </>

@@ -11,7 +11,7 @@ function OfficerAddVisitor() {
             <Navbar />
             <div className="officer-addvisitor">
                 <div className="form-title">
-                    <h3>Add to Visitor Detalis</h3>
+                    <h3>Add Visitor Detalis</h3>
                 </div>
                 <div className="add-visitor-form">
                     <Form>

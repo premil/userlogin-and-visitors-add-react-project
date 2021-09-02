@@ -28,7 +28,7 @@ function SignIn() {
             await axios.post("<<backend-api-link>>", userSigninInfo, {
                 headers: {}
             })
-            .then(res => {
+            .then(res => {              // not in completed
                 setLogEmail("");
                 setLogPassword("");
             })
@@ -81,7 +81,6 @@ function SignIn() {
                         </Link>
                     </div>
                     <div className="signup-btn">
-                        {/* <Link to='/'> */}
                             <Button
                                 className='btn'
                                 buttonStyle='btn-black-curve'
@@ -90,7 +89,6 @@ function SignIn() {
                             >
                                 New Account
                             </Button>
-                        {/* </Link> */}
                     </div>
                 </div>
             </div>

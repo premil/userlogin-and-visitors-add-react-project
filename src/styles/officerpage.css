@@ -1,4 +1,15 @@
+.officerpage{
+    margin: 30px 100px;
+}
+
 h2{
     margin: 30px;
+    padding: 20px 0px;
     text-align: center;
+}
+
+@media screen and (max-width: 720px) {
+    .officerpage{
+        margin: 20px 50px;
+    }
 }

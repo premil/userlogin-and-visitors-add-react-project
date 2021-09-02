@@ -24,7 +24,6 @@ function Landingpage() {
                     </Link>
                 </div>  {/* officer */}
                 <div className="visitor">
-                    
                         <Button
                             className='btns'
                             buttonStyle='btn-black-box'
@@ -33,13 +32,14 @@ function Landingpage() {
                         >
                             Visitor
                         </Button>
-                    
                 </div>  {/* visitor */}
             </div>
-            <VisitorModal
+
+            <VisitorModal                   
             modal_Show={showSubmit}
             modal_Hide={closeSubmit}
             />
+
         </div>
     );
 }
